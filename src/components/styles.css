@@ -1,0 +1,54 @@
+/*-----CONTAINER HEADER-----*/
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+
+  background-color: rgb(194, 194, 194);
+  color: rgb(46, 46, 46);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+
+  background-color: rgb(46, 46, 46);
+  color: rgb(211, 211, 211);
+}
+
+.header-left h2 {
+  padding-left: 20px;
+}
+
+/*-----LATERAL MENU-----*/
+.container-lateral-menu h4 {
+  padding: 20px;
+  margin: 0;
+
+  color: rgb(211, 211, 211);
+}
+
+.container-lateral-menu h4:hover {
+  cursor: pointer;
+
+  background-color: rgb(95, 95, 95);
+}
+
+.container-lateral-menu hr {
+  color: rgb(194, 194, 194);
+
+  padding: 0;
+  margin: 0;
+}
